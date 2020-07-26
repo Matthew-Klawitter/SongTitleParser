@@ -15,7 +15,7 @@ Currently, the following media players are supported:
 2. Windows
 
 ## Instructions
-1. Download or clone this project and extract it
+1. Download and extract or clone this project
 2. Locate - FindTitle.py
 3. Run the script - Python FindTitle.py
 
@@ -24,6 +24,6 @@ Currently, the following media players are supported:
 * These .txt will be cleared when the application is shut down
 
 ## Limitations
-1. Currently has only been tested on Windows 10 through utilization of the win32gui module. It is unlikely to currently work on Linux but I am currently planning a port
+1. Currently has only been tested on Windows 10 through utilization of the win32gui module. It is unlikely to work on Linux and untested, but I am planning a port
 2. Spotify must not be playing a song when this application is started in order for the script to correctly track its GUI
-3. If a different application contains the name of one of these supported media players and is running, incorrect results may be placed in the associated .txt files... to fix this, please restart the script
+3. If a different application contains the name of one of these supported media players and is running, incorrect results may be placed in the associated .txt files. To fix this, please temporarily close those applications and restart this script.
